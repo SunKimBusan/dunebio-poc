@@ -89,6 +89,7 @@ jupyter notebook notebooks/01_hybrid_simulation.ipynb
 - `outputs/figures/residual_plot.png`: Visualization of PINN-corrected residuals
 - Console output: RMSE comparison table
 
+<!-- TODO: check -->
 ## Results
 
 | Method | RMSE | Improvement |
