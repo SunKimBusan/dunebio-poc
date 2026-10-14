@@ -5,3 +5,4 @@
 
 ### Required Files
 - `GDSC2_fitted_dose_response_27Oct23.xlsx`
+- `model_list_20260814.csv`
