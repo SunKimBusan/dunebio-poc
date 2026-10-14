@@ -11,7 +11,7 @@ import pandas as pd
 from pathlib import Path
 
 DRUG_FILE = Path("data/processed/gdsc2_osimertinib_fitted_dose_response.csv")
-MODEL_FILE = Path("data/processed/model_list_20260814.csv")
+MODEL_FILE = Path("data/raw/model_list_20260814.csv")
 OUTPUT_FILE = Path("data/processed/osimertinib_with_metadata.csv")
 
 MODEL_COLS = {
