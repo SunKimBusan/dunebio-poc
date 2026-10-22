@@ -31,11 +31,11 @@ Run from the repository root, in order:
 
 | Step | Script | Output (`data/processed/`) |
 |---|---|---|
-| 1-1 | `scripts/extract_osimertinib.py` | `gdsc2_osimertinib_fitted_dose_response.csv` (957) |
-| 1-2 | `scripts/join_model_metadata.py` | `osimertinib_with_metadata.csv` |
-| 1-3 | `scripts/label_egfr_status.py` | `osimertinib_with_egfr.csv` |
-| 1-4 | `scripts/add_egfr_expression.py` | `osimertinib_with_egfr_expr.csv` |
-| 1-5 | `scripts/split_train_test.py` | `osimertinib_pancancer_master.csv` (957), `train_pancancer.csv` (854), `test_nsclc.csv` (103) |
+| 1-1 | `scripts/data/extract_osimertinib.py` | `gdsc2_osimertinib_fitted_dose_response.csv` (957) |
+| 1-2 | `scripts/data/join_model_metadata.py` | `osimertinib_with_metadata.csv` |
+| 1-3 | `scripts/data/label_egfr_status.py` | `osimertinib_with_egfr.csv` |
+| 1-4 | `scripts/data/add_egfr_expression.py` | `osimertinib_with_egfr_expr.csv` |
+| 1-5 | `scripts/data/split_train_test.py` | `osimertinib_pancancer_master.csv` (957), `train_pancancer.csv` (854), `test_nsclc.csv` (103) |
 
 ### Split Summary
 | EGFR_STATUS | Train (Pan-Cancer) | Test (NSCLC) |
