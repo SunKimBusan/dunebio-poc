@@ -7,6 +7,7 @@
 - `GDSC2_fitted_dose_response_27Oct23.xlsx`
 - `model_list_20260814.csv`
 - `mutations_summary_20260724.csv`
+- `rnaseq_merged_rsem_tpm_20260323.csv` (Extracted from `rnaseq_merged_20260323.zip`; only this TPM matrix file is required for gene expression features)
 
 ### Data Definitions
 - **EGFR_STATUS** (4 classes): `Exon19del`, `L858R`, `Other`, `Wildtype`
